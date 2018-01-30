@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+      <Document>
+        <name>Taylor Valley LiDAR (10 m)</name>
+        <description><![CDATA[
+<style>
+	.heading {
+		font-size: 12px;
+		font-weight: bold;
+	}
+</style>
+<base href="http://opentopo.sdsc.edu/raster?opentopoID=OTSDEM.112016.3294.1" />
+
+<div class="heading">Description</div>
+<hr>
+<p>Airborne lidar data were collected with the Optech Titan multispectral sensor of the McMurdo Dry Valleys, Antarctica during the austral summer of 2014-2015... </p>
+<p>Survey Date: 04 Dec 2014 - 19 Jan 2015</p>
+<p>For a full description and full metadata, see:<br />
+<a href="http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.112016.3294.1">http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.112016.3294.1</a></p>
+<p>A survey description is also provided in the following reference:</p>
+<p>Fountain, A. G., Fernandez-Diaz, J. C., Obryk, M., Levy, J., Gooseff, M., Van Horn, D. J., Morin, P., and Shrestha, R.: High-resolution elevation mapping of the McMurdo Dry Valleys, Antarctica, and surrounding regions, Earth Syst. Sci. Data, 9, 435-443, <a href=" https://doi.org/10.5194/essd-9-435-2017, 2017">https://doi.org/10.5194/essd-9-435-2017</a>, 2017.</p>
+
+<div class="heading">Processing</div>
+<hr>
+<p>Raster LiDAR data (1 m spatial resolution) were downloaded from the <a href="http://opentopo.sdsc.edu/raster?opentopoID=OTSDEM.112016.3294.1">OpenTopography</a> website, resampled to 10 m (for file size/ bandwidth) and a colour render produced in QGIS using: singleband pseudocolor, linear interpolation (Min = 0, Max = 1400), wiki-schwarzwald-cont colour scheme. The KML files/ image tiles were then produced using <a href="http://www.gdal.org/gdal2tiles.html">gdal2tiles</a>.
+
+<div class="heading">Dataset Acknowledgement</div>
+<hr>
+<p>The user acknowledges that 2014-2015 lidar survey of the McMurdo Dry Valleys, Antarctica dataset was made possible by the National Science Foundation (NSF) through the Antarctic Integrated Systems Science award ANT-1246342 granted to Andrew G. Fountain, Department of Geology, Portland State University. The data were collected and processed by the NSF National Center for Airborne Laser Mapping (NCALM) and made available through the OpenTopography Facility.</p>
+<p><a href="https://doi.org/10.5069/G9D50JX3">https://doi.org/10.5069/G9D50JX3</a></p>
+]]>
+</description>
+        <Style>
+          <ListStyle id="hideChildren">
+            <listItemType>checkHideChildren</listItemType>
+          </ListStyle>
+        </Style>
+        <NetworkLink>
+          <name>6/60/9.png</name>
+          <Region>
+            <LatLonAltBox>
+              <north>-76.84081641443098</north>
+              <south>-78.06198918665974</south>
+              <east>163.12500000000000</east>
+              <west>157.50000000000003</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>128</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <Link>
+            <href>https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m/6/60/9.kml</href>
+            <viewRefreshMode>onRegion</viewRefreshMode>
+            <viewFormat/>
+          </Link>
+        </NetworkLink>
+            
+        <NetworkLink>
+          <name>6/61/9.png</name>
+          <Region>
+            <LatLonAltBox>
+              <north>-76.84081641443098</north>
+              <south>-78.06198918665974</south>
+              <east>168.74999999999997</east>
+              <west>163.12500000000000</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>128</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <Link>
+            <href>https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m/6/61/9.kml</href>
+            <viewRefreshMode>onRegion</viewRefreshMode>
+            <viewFormat/>
+          </Link>
+        </NetworkLink>
+                  </Document>
+    </kml>
+        
