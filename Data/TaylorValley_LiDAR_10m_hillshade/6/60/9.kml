@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+      <Document>
+        <name>6/60/9.kml</name>
+        <description></description>
+        <Style>
+          <ListStyle id="hideChildren">
+            <listItemType>checkHideChildren</listItemType>
+          </ListStyle>
+        </Style>
+        <Region>
+          <LatLonAltBox>
+            <north>-76.84081641443098</north>
+            <south>-78.06198918665974</south>
+            <east>163.12500000000000</east>
+            <west>157.50000000000003</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>2048</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay>
+          <drawOrder>12</drawOrder>
+          <Icon>
+            <href>9.png</href>
+          </Icon>
+          <LatLonBox>
+            <north>-76.84081641443098</north>
+            <south>-78.06198918665974</south>
+            <east>163.12500000000000</east>
+            <west>157.50000000000003</west>
+          </LatLonBox>
+        </GroundOverlay>
+    
+        <NetworkLink>
+          <name>7/121/18.png</name>
+          <Region>
+            <LatLonAltBox>
+              <north>-77.46602847687328</north>
+              <south>-78.06198918665974</south>
+              <east>163.12500000000000</east>
+              <west>160.31250000000000</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>128</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <Link>
+            <href>https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/7/121/18.kml</href>
+            <viewRefreshMode>onRegion</viewRefreshMode>
+            <viewFormat/>
+          </Link>
+        </NetworkLink>
+                  </Document>
+    </kml>
+        

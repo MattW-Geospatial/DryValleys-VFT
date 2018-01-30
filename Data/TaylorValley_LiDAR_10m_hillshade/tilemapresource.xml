@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
+      <Title>TaylorValley_LiDAR_10m_hillshade.tif</Title>
+      <Abstract></Abstract>
+      <SRS>EPSG:3857</SRS>
+      <BoundingBox minx="160.93554039119067" miny="-77.85675810820486" maxx="163.91573378685143" maxy="-77.48288728085177"/>
+      <Origin x="160.93554039119067" y="-77.85675810820486"/>
+      <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
+      <TileSets profile="mercator">
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/6" units-per-pixel="2445.98490468750015" order="6"/>
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/7" units-per-pixel="1222.99245234375007" order="7"/>
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/8" units-per-pixel="611.49622617187504" order="8"/>
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/9" units-per-pixel="305.74811308593752" order="9"/>
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/10" units-per-pixel="152.87405654296876" order="10"/>
+        <TileSet href="https://uc-geospatial.github.io/Data/TaylorValley_LiDAR_10m_hillshade/11" units-per-pixel="76.43702827148438" order="11"/>
+      </TileSets>
+    </TileMap>
+    
