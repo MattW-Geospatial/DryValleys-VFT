@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd"><Document><name>Antarctic Ant50k Maps</name>
+<description><![CDATA[
+<style>
+	.heading {
+		font-size: 12px;
+		font-weight: bold;
+	}
+</style>
+<base href="https://data.linz.govt.nz/" />
+
+
+    <div class="heading">Description</div>
+    <hr>
+<p>The Ant50 map series provides topographic mapping within the Ross Dependency, Antarctica  </p>
+<p>Digital images of the maps are also publicly available from <a href="http://www.linz.govt.nz/topography/topo-maps/antarctic-topo50-map-series">www.linz.govt.nz/topography/topo-maps/antarctic-to...</a>  </p>
+<p>Georeferenced raster digital images are provided at a resolution of 300 DPI. Georeferencing allows adjacent maps to be accurately and automatically aligned within GIS systems.  </p>
+<p>For more information, and a description of the georeferencing keys:<br />
+<a href="http://www.linz.govt.nz/topography/topo-maps/topo50/digital-images">www.linz.govt.nz/topography/topo-maps/topo50/digit...</a></p>
+
+
+
+	<div class="heading">License</div>
+	<hr>
+	License: <a href="https://data.linz.govt.nz/license/attribution-3-0-new-zealand/" onclick="window.open('about:blank'); window.open(this.href); return false;">Creative Commons Attribution 3.0 New Zealand</a>
+
+
+<hr>
+
+
+
+<div class="footer">Source: <a href="https://data.linz.govt.nz/layer/51109-antarctic-ant50k-maps/" onclick="window.open('about:blank'); window.open(this.href); return false;">Antarctic Ant50k Maps</a></div>
+<div class="footer">Data last updated: 07 Dec 2014</div>
+<div class="footer">Downloaded from <a href="https://data.linz.govt.nz/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Data Service</a> on 30 Jan 2018</div>
+]]></description>
+<NetworkLink><Link><href>antarctic-ant50k-maps.layerdata/data.kml</href>
+</Link>
+</NetworkLink>
+<Schema id="antarctic-ant50k-mapsId" name="antarctic-ant50k-maps" />
+<Style id="antarctic-ant50k-mapsId"><IconStyle><color>ffffffff</color>
+<scale>0.2</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+</Icon>
+</IconStyle>
+<LineStyle><color>ffffffff</color>
+<width>2</width>
+</LineStyle>
+<PolyStyle><color>7fffffff</color>
+</PolyStyle>
+<BalloonStyle><text><![CDATA[
+<html>
+<head>
+    <style type="text/css">
+        table {
+            width: 100%;
+            border-width: 1px 0 1px 0;
+            border-style: solid;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            text-align: left;
+        }
+
+        th {
+            width:auto;
+        }
+    </style>
+</head>
+<body>
+    <base href="https://data.linz.govt.nz/" />
+
+    <h2>Antarctic Ant50k Maps</h2>
+
+    <table>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <div>Source: <a href="https://data.linz.govt.nz/layer/51109-antarctic-ant50k-maps/" onclick="window.open('about:blank'); window.open(this.href); return false;">Antarctic Ant50k Maps</a></div>
+    
+        <div>License: <a href="https://data.linz.govt.nz/license/attribution-3-0-new-zealand/" onclick="window.open('about:blank'); window.open(this.href); return false;">Creative Commons Attribution 3.0 New Zealand</a></div>
+    
+    <div>Data last updated: 07 Dec 2014</div>
+    <div>Downloaded from <a href="https://data.linz.govt.nz/" onclick="window.open('about:blank'); window.open(this.href); return false;">LINZ Data Service</a> on 30 Jan 2018</div>
+</body>
+</html>
+]]></text>
+</BalloonStyle>
+</Style>
+</Document>
+</kml>
