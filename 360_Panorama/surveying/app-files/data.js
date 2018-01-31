@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-360_0044-sphere",
-      "name": "360_0044-sphere",
+      "id": "0-surveying",
+      "name": "Surveying",
       "levels": [
         {
           "tileSize": 256,
