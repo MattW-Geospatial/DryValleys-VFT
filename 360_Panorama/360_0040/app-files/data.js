@@ -112,7 +112,7 @@ var APP_DATA = {
           "yaw": 0.9014113833209869,
           "pitch": -0.13535934867516275,
           "title": "Scott Polar tent",
-          "text": "<div>A heavy, sturdy tent closely based on the original design used by Scott in the expedition of 1901-04.</div><div><br></div><div>See <a href=""https://www.nzgeo.com/stories/camping-on-the-ice-at-scott-base/"">here</a> for a look at these tents being used in Antarctic NZ field training, and <a href=""https://www.freezeframe.ac.uk/resources/shelter/2"">here</a> for a historical perspective."
+          "text": "<div>A heavy, sturdy tent closely based on the original design used by Scott in the expedition of 1901-04.</div><div><br></div><div>See &lt;a href=\"https://www.nzgeo.com/stories/camping-on-the-ice-at-scott-base/\"&gt;here&lt;/a&gt; for a look at these tents being used in Antarctic NZ field training:</div><div>https://www.nzgeo.com/stories/camping-on-the-ice-at-scott-base/<br></div><div><br></div><div>And here for a historical perspective:</div><div><div>https://www.freezeframe.ac.uk/resources/shelter/2</div></div>"
         },
         {
           "yaw": 0.10567193555348098,
