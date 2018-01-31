@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-360_0040-sphere",
-      "name": "360_0040-sphere",
+      "id": "0-LacroixCamp",
+      "name": "LacroixCamp",
       "levels": [
         {
           "tileSize": 256,
