@@ -401,7 +401,7 @@
   //let params = new URLSearchParams(document.location.search.substring(1));
   //let scn = parseInt(params.get("scn"));
   var scnNum = getParameterByName('scn');
-  if (scnNum == null) {
+  if (scnNum == null || scnNum == '') {
     var scn = 0;
   } else {
     var scn = parseInt(scnNum);
