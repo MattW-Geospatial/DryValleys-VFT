@@ -386,6 +386,8 @@
     return null;
   }
 
+  // Function added by Matt Wilson - taken from https://stackoverflow.com/a/901144
+  // Allows variables to be obtained from the URL - used here to change the initial image shown
   function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -397,16 +399,13 @@
   }
 
   // Display the initial scene.
-  //var scn = 0;
-  //let params = new URLSearchParams(document.location.search.substring(1));
-  //let scn = parseInt(params.get("scn"));
+  //switchScene(scenes[0]); // previous code
+  // Defaults to 0 in the scene list. If the url query fails, the first image will load 
+  var scn = 0;
   var scnNum = getParameterByName('scn');
-  if (scnNum == null || scnNum == '') {
-    var scn = 0;
-  } else {
+  if (scnNum !== null && scnNum !== '') {
     var scn = parseInt(scnNum);
   }
-
   switchScene(scenes[scn]);
 
 })();
