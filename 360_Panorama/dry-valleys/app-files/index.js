@@ -404,7 +404,10 @@
   var scn = 0;
   var scnNum = parseInt(getParameterByName('scn'));
   if (!isNaN(scnNum)) {
+    window.alert("scene number set from URL");
     var scn = scnNum;
+  } else
+     window.alert("default to 0");
   }
   switchScene(scenes[scn]);
 
