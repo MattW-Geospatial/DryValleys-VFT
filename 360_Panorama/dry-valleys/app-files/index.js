@@ -388,7 +388,9 @@
 
   // Display the initial scene.
   //var scn = 0;
-  scn = url.searchParams.get("scn");
+  let params = new URLSearchParams(document.location.search.substring(1));
+  let scn = parseInt(params.get("scn"));
+
   switchScene(scenes[scn]);
 
 })();
