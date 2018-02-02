@@ -399,9 +399,9 @@
   }
 
   // Display the initial scene.
-  //switchScene(scenes[0]); // previous code
-  // Modified to allow scene selection using ?scn=1 in the URL
-  // Defaults to 0 in the scene list. If the url query fails, the first image will load 
+  // switchScene(scenes[0]); // previous code
+  // Modified by Matt Wilson to allow scene selection using ?scn=1 in the URL
+  // Defaults to 0 in the scene list. If the url query fails or the index is out of range, the first image will load 
   var scn = 0;
   var scnNum = parseInt(getParameterByName('scn'));
   if (!isNaN(scnNum) && scnNum < scenes.length) {
