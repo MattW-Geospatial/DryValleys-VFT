@@ -400,8 +400,12 @@
   //var scn = 0;
   //let params = new URLSearchParams(document.location.search.substring(1));
   //let scn = parseInt(params.get("scn"));
-  
-  var scn = parseInt(getParameterByName('scn'));
+  var scnNum = getParameterByName('scn');
+  if (scnNum == null) {
+    var scn = 0;
+  } else {
+    var scn = parseInt(scnNum);
+  }
 
   switchScene(scenes[scn]);
 
