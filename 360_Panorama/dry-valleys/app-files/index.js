@@ -402,9 +402,9 @@
   //switchScene(scenes[0]); // previous code
   // Defaults to 0 in the scene list. If the url query fails, the first image will load 
   var scn = 0;
-  var scnNum = getParameterByName('scn');
-  if (scnNum !== null && scnNum !== '') {
-    var scn = parseInt(scnNum);
+  var scnNum = parseInt(getParameterByName('scn'));
+  if (scnNum !== null) {
+    var scn = scnNum;
   }
   switchScene(scenes[scn]);
 
