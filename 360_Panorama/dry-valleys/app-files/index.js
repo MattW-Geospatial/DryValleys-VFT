@@ -406,7 +406,6 @@
   var scnNum = parseInt(getParameterByName('scn'));
   if (!isNaN(scnNum)) {
     var scn = scnNum;
-    alert("set by URL");
   } 
   switchScene(scenes[scn]);
 
