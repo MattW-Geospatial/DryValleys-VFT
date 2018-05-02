@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>360 degree panoramic photos</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>360 Panoramas</name>
+		<open>1</open>
+		<Placemark>
+			<name>Surveying</name>
+			<description><![CDATA[<style>
+	.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; }
+    p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; }
+    img { border: 0; }
+    body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; }
+    h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; }
+    #content { background-color: #FFF; padding: 5px; }
+    #footer { padding: 5px; background-color: #e6e6e7; text-align: right; }
+    hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; }
+</style>
+<base href="https://uc-geospatial.github.io/360_Panorama/dry-valleys" />
+<div id="content">
+
+<div class="heading">Description</div>
+<hr>
+<p>360 degree annotated panoramic image of surveying on the floodplain. Click on the image to open the panorama in your web browser.</p>
+
+<a name="link_id" id="link_id" href="javascript:window.open('about:blank');" onclick="window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=0');">
+<img src="https://uc-geospatial.github.io/360_Panorama/Surveying.jpg"  width="600" />
+<br />360 Panorama: Surveying</a>
+
+</div>
+<div id="footer"><img src="http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png" alt="Department of Geography, University of Canterbury" /></div>]]></description>
+			<LookAt>
+				<longitude>162.5785673220966</longitude>
+				<latitude>-77.68912290489824</latitude>
+				<altitude>0</altitude>
+				<heading>0.5118517460729565</heading>
+				<tilt>30.00213565513339</tilt>
+				<range>475.6190072634561</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>162.577232,-77.68920814951029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camp location</name>
+			<description><![CDATA[<style>
+	.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; }
+    p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; }
+    img { border: 0; }
+    body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; }
+    h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; }
+    #content { background-color: #FFF; padding: 5px; }
+    #footer { padding: 5px; background-color: #e6e6e7; text-align: right; }
+    hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; }
+</style>
+<base href="https://uc-geospatial.github.io/360_Panorama/dry-valleys" />
+<div id="content">
+
+<div class="heading">Description</div>
+<hr>
+<p>360 degree annotated panoramic image the area around the camp. Click on the image to open the panorama in your web browser.</p>
+
+<a name="link_id" id="link_id" href="javascript:window.open('about:blank');" onclick="window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=3');">
+<img src="https://uc-geospatial.github.io/360_Panorama/CampLocation.jpg"  width="600" />
+<br />360 Panorama: Camp location</a>
+
+</div>
+<div id="footer"><img src="http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png" alt="Department of Geography, University of Canterbury" /></div>]]></description>
+			<LookAt>
+				<longitude>162.5702417796318</longitude>
+				<latitude>-77.69167000736327</latitude>
+				<altitude>0</altitude>
+				<heading>0.5346504156215397</heading>
+				<tilt>36.21168442170819</tilt>
+				<range>167.1751916646394</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>162.5693608113778,-77.69181050227195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Inside Lacroix Camp</name>
+			<description><![CDATA[<style>
+	.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; }
+    p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; }
+    img { border: 0; }
+    body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; }
+    h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; }
+    #content { background-color: #FFF; padding: 5px; }
+    #footer { padding: 5px; background-color: #e6e6e7; text-align: right; }
+    hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; }
+</style>
+<base href="https://uc-geospatial.github.io/360_Panorama/dry-valleys" />
+<div id="content">
+
+<div class="heading">Description</div>
+<hr>
+<p>360 degree annotated panoramic image inside the Scott Polar tent. Click on the image to open the panorama in your web browser.</p>
+
+<a name="link_id" id="link_id" href="javascript:window.open('about:blank');" onclick="window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=4');">
+<img src="https://uc-geospatial.github.io/360_Panorama/InsideLacroixCamp.jpg"  width="600" />
+<br />360 Panorama: Inside Lacroix Camp</a>
+
+</div>
+<div id="footer"><img src="http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png" alt="Department of Geography, University of Canterbury" /></div>]]></description>
+			<LookAt>
+				<longitude>162.568774699864</longitude>
+				<latitude>-77.69191699815227</latitude>
+				<altitude>0</altitude>
+				<heading>0.5561213526004284</heading>
+				<tilt>49.31641819397891</tilt>
+				<range>356.7683812753743</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>162.564346361405,-77.69193724947372,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lacroix Glacier 1</name>
+			<description><![CDATA[<style>
+	.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; }
+    p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; }
+    img { border: 0; }
+    body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; }
+    h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; }
+    #content { background-color: #FFF; padding: 5px; }
+    #footer { padding: 5px; background-color: #e6e6e7; text-align: right; }
+    hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; }
+</style>
+<base href="https://uc-geospatial.github.io/360_Panorama/dry-valleys" />
+<div id="content">
+
+<div class="heading">Description</div>
+<hr>
+<p>360 degree annotated panoramic image of the Lacroix Glacier (1). Click on the image to open the panorama in your web browser.</p>
+
+<a name="link_id" id="link_id" href="javascript:window.open('about:blank');" onclick="window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=1');">
+<img src="https://uc-geospatial.github.io/360_Panorama/LacroixGlacier1.jpg"  width="600" />
+<br />360 Panorama: Lacroix Glacier 1</a>
+
+</div>
+<div id="footer"><img src="http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png" alt="Department of Geography, University of Canterbury" /></div>]]></description>
+			<LookAt>
+				<longitude>162.5692544219626</longitude>
+				<latitude>-77.67853111088101</latitude>
+				<altitude>0</altitude>
+				<heading>0.5362590076617186</heading>
+				<tilt>36.76166821929433</tilt>
+				<range>6993.058322695366</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>162.5526533603201,-77.68347812956065,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lacroix Glacier 2</name>
+			<description><![CDATA[<style>
+	.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; }
+    p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; }
+    img { border: 0; }
+    body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; }
+    h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; }
+    #content { background-color: #FFF; padding: 5px; }
+    #footer { padding: 5px; background-color: #e6e6e7; text-align: right; }
+    hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; }
+</style>
+<base href="https://uc-geospatial.github.io/360_Panorama/dry-valleys" />
+<div id="content">
+
+<div class="heading">Description</div>
+<hr>
+<p>360 degree annotated panoramic image of the Lacroix Glacier (2). Click on the image to open the panorama in your web browser.</p>
+
+<a name="link_id" id="link_id" href="javascript:window.open('about:blank');" onclick="window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=2');">
+<img src="https://uc-geospatial.github.io/360_Panorama/LacroixGlacier2.jpg"  width="600" />
+<br />360 Panorama: Lacroix Glacier 2</a>
+
+</div>
+<div id="footer"><img src="http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png" alt="Department of Geography, University of Canterbury" /></div>]]></description>
+			<LookAt>
+				<longitude>162.5801637654912</longitude>
+				<latitude>-77.68059433272765</latitude>
+				<altitude>0</altitude>
+				<heading>0.5363054972089317</heading>
+				<tilt>44.28784235091454</tilt>
+				<range>4469.336501164869</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>162.53591,-77.67941836322207,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
