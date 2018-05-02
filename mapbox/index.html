@@ -7,13 +7,17 @@
 	</head>
 	<body>
 	
-		<div id='map' style='width: 400px; height: 300px;'></div>
+		<div id='map' style='width: 800px; height: 600px;'></div>
 		<script>
 			mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dHdpbHNvbiIsImEiOiJjamdvZDNoeDQwZnBpMnJwbTNjanlkaHIwIn0.HdpySq_-fXmq5VinTvHrzg';
 			var map = new mapboxgl.Map({
 			container: 'map',
 			style: 'mapbox://styles/mattwilson/cjgoic5ew000u2smsh3kdj9a1'
 			});
+			
+			map.addControl(new mapboxgl.FullscreenControl());
+
+			
 		</script>
 
 	</body>
