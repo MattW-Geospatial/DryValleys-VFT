@@ -9,7 +9,9 @@
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+		
+		.heading { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 14px; font-weight: bold; min-width: 1000px; } p { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 12px; } img { border: 0; body { font-family: "Open Sans, Helvetica, Arial, sans-serif"; } h3 { font-family: "Open Sans, Helvetica, Arial, sans-serif"; font-size: 16px; font-weight: bold; background-color: #e6e6e7; padding: 5px; border-bottom: 3px solid #bdbdc2; } #content { background-color: #FFF; padding: 5px; } #footer { padding: 5px; background-color: #e6e6e7; text-align: right; } hr { border-top: 1px dotted #e6e6e7; border-bottom: 1px dotted #fff; } </style>
+    
 </head>
 <body>
 
@@ -42,12 +44,12 @@ map.on('load', function () {
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Make it Mount Pleasant</strong><p><a href=\"http://www.mtpleasantdc.com/makeitmtpleasant\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
-                        "icon": "theatre"
+                        "description": "<div id=\"content\"><div class=\"heading\">Description</div><hr><p>360 degree annotated panoramic image of surveying on the floodplain. Click on the image to open the panorama in your web browser.</p> <a name=\"link_id\" id=\"link_id\" href=\"javascript:window.open('about:blank');\" onclick=\"window.open('https://uc-geospatial.github.io/360_Panorama/dry-valleys/app-files/index.html?scn=0');\"><img src=\"https://uc-geospatial.github.io/360_Panorama/Surveying.jpg\"  width=\"600\" /><br />360 Panorama: Surveying</a></div><div id=\"footer\"><img src=\"http://www.canterbury.ac.nz/science/schools-and-departments/geog/department-header/uc-geography.png\" alt=\"Department of Geography, University of Canterbury\" /></div>",
+						"icon": "star"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [162.564346361405, -77.69193724947372]
+                        "coordinates": [162.5785673220966, -77.68912290489824]
                     }
                 }, {
                     "type": "Feature",
